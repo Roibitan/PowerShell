@@ -44,7 +44,7 @@ $MailHR = "C:\Temp\HRLastMail.txt"
 #################################################################################################################
 
 #Почта в которой ищем письмо
-$Mail = "alexs@neogames.com"
+$Mail = "User@XXXXXX.com"
 
 #Ввод пароля
 $SecurePassword = Read-Host "Enter password for mailbox" -AsSecureString
