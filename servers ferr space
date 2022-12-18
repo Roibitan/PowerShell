@@ -9,9 +9,9 @@ $dir = Split-Path $scriptpath
 #Variables to configure
 $percentWarning = 15;
 $percentCritcal = 10;
-$smtpServer = "ngt-smtp1" 
+$smtpServer = "SMTPServer" 
 $ReportSender = "NGT-BigFix@neogames.com"  
-$users = "Roib@neogames.com"; 
+$users = "mail@neogames.com"; 
 $MailSubject = "Neogames (CORP) - DiskSpace Issue"
 
 #No change needed from here!!!
