@@ -1,7 +1,7 @@
 # PowerShell script to check for VM snapshots and send Email report
 
 add-pssnapin NGT-VC1.corp.neogames-tech.com
-Connect-VIServer -Server 'NGT-VC1' -User 'corp\roib' -Password 'Bluescreen!'
+Connect-VIServer -Server 'ServerName' -User 'corp\User' -Password 'Pass'
 
 # HTML formatting
 $a = "<style>"
@@ -30,7 +30,7 @@ Write-Host "Your snapshot report has been saved to:" $filename
 # Create mail message
 $server = "ngt-smtp1"
 $port = 25
-$to      = "roibitan35@gmail.com"
+$to      = "Mailaddress@gmail.com"
 $from    = "NGT-VC1@Neogames.com"
 $subject = "VM Snapshot Report"
 $body = Get-Content $filename
