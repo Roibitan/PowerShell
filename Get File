@@ -126,9 +126,9 @@ catch
 
 ############OLD Get-Files#########
 
-    #$FTP = "ftp://95.129.32.72"
-    #$user = 'NG-REPOSITORY' 
-    #$pass = 'b[[obRN62QC!'
+    #$FTP = "ftp://XX.XX.XX.XX"
+    #$user = 'NAME' 
+    #$pass = 'Pass'
     #$Folder = "$(RepositoryFolder)"
 	#
     #$DateTime = get-date -format ddMMyyyyHHmm
