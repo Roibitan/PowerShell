@@ -1,11 +1,11 @@
-﻿$organization = "XXXXX://XXXXX.XXXXX.XXXXX/XXXXX/"
-$project = "XXXXX"
-$User = "XXXXX@XXXXX.XXXXX.XXXXX"
-$Pass = "XXXXX"
-$desiredRepoNames = @("repo1")
-$BranchID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+﻿$organization = "XXXX://XXXX.XXXX.XXXX/XXXXXXXX/"
+$project = "XXXX"
+$User = "XXXXXXXX@XXXX.XXXX.XXXX"
+$Pass = "XXXX"
+$desiredRepoNames = @("repo1", "repo2")
+$BranchID = "XXXXXXXXXXXXXXXXXXXX"
 $desiredBranchNames = @("Branch1", "Branch2")
-$RepoPolicy = @("XXXXX")
+$RepoPolicy = @("XXXXXXXXXXXX")
 
 
 az login -u $User -p $Pass
@@ -47,5 +47,12 @@ else{
     }
 
 }
+
+
+
+az repos policy create --config C:\Users\XXXX\Desktop\Azure_CLi\branch-policies.json
+
+
+
 
 az logout

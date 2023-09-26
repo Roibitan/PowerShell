@@ -1,0 +1,20 @@
+{
+  "isEnabled": true,
+  "isBlocking": true,
+  "settings": {
+    "scope": [
+      {
+        "refName": "refs/heads/Branch1",
+        "matchKind": "exact",
+        "repositoryId": "XXXXXXXXXXXXXXXXXXXXXX"
+      }
+    ],
+    "minimumApproverCount": 4,
+    "creatorVoteCounts": false,
+    "allowDownvotes": false,
+    "resetOnSourcePush": false
+  },
+  "type": {
+    "id": "XXXXXXXXXXXXXXXXXXXXXX"
+  }
+}
