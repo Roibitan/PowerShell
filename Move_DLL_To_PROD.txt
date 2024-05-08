@@ -1,14 +1,1 @@
-bt10prdapp1
-bt10prdapp2
-bt10prdapp3
-bt10prdapp4
-bt10mq
-eaiws1
-eaiws2
-digsignprod1
-digsignprod2
-cibbprod1
-cibbprod2
-eaiwebapp1
-eaiwebapp2
-v-docprd1 
+sdxc
