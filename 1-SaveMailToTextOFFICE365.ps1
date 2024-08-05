@@ -1,5 +1,5 @@
 #ÐŸÐ¾Ñ‡Ñ‚Ð° Ð² ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð¸Ñ‰ÐµÐ¼ Ð¿Ð¸ÑÑŒÐ¼Ð¾
-$Mail = "Name@XXXXX.com"
+$Mail = "Name@RRRROOOOIIIII!!!!!!.com"
 
 #Ð’Ð²Ð¾Ð´ Ð¿Ð°Ñ€Ð¾Ð»Ñ
 $SecurePassword = Read-Host "Enter password for mailbox" -AsSecureString
